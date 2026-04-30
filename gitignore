@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data & Models (too large for Git)
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# Results & outputs
+outputs/
+runs/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

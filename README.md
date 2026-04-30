@@ -80,7 +80,7 @@ visual-threat-detection/
 
 ## Threat Model (Summary)
 
-Full doc → [`THREAT_MODEL.md`](./THREAT_MODEL.md)
+Full doc → [`THREAT_MODEL.md`](doc/THREAT_MODEL.md)
 
 Realistic attack on a deployed CCTV system is **physical**, not digital:  
 an adversarial patch printed on clothing breaks YOLO detection silently.  

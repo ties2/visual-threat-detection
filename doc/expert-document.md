@@ -1,3 +1,7 @@
+# this document provide for expert people to know more about project
+
+
+
 visual-threat-detection/
 ├── README.md                  ← ML-flavored (fill numbers later)
 ├── README_SECURITY.md         ← Security-flavored version
@@ -30,3 +34,9 @@ visual-threat-detection/
 ├── 01_data_exploration.ipynb
 ├── 02_vad_training.ipynb
 └── 03_attack_eval.ipynb
+
+# notebooks
+
+notebooks/02_vad_training.ipynb      ← This is  main one (train the U-Net)
+notebooks/01_data_exploration.ipynb  ← Run this first (check the dataset)
+notebooks/03_attack_eval.ipynb       ← Run this after training (FGSM/PGD)
